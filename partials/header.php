@@ -43,8 +43,8 @@
                                 <?php
                                     if(!isset($_SESSION["loggin"])){
                                         echo '<div class="d-flex">
-                                        <a href="../quora/login/login.php" class="btn btn-outline-light mx-3">Log In</a>
-                                        <a href="../quora/login/signup.php" class="btn btn-outline-light">Sign Up</a>
+                                        <a href="/login/login.php" class="btn btn-outline-light mx-3">Log In</a>
+                                        <a href="/login/signup.php" class="btn btn-outline-light">Sign Up</a>
                                 </div>
                                 ';
                                       }
@@ -54,8 +54,8 @@
                                             '.$_SESSION["username"].'
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                              <li><a class="dropdown-item" href="/quora/my_questions.php">My questions</a></li>
-                                              <li><a class="dropdown-item" href="../quora/login/logout.php">Logout</a></li>
+                                              <li><a class="dropdown-item" href="/my_questions.php">My questions</a></li>
+                                              <li><a class="dropdown-item" href="/login/logout.php">Logout</a></li>
                                             </ul>
                                           </div>';
                                       }
